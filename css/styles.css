@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    margin-top: 55px;
+    margin-right: 0;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+
+header .red{
+    display: flex;
+    flex-basis: 80%;
+    background-color: #ee2e24;
+    /* position: absolute; z-index: 2; */
+    height: 130px;
+    
+    /* &:before {
+        position: absolute;
+            margin: 20px;
+        padding: 20px;
+            border-radius: 50%;
+            box-shadow: 0 0 0 300px rgba(#95a, .75);
+        content: ''
+      } */
+    
+}
+.title{
+    background-color: #ee2e24;
+    color: white;
+    position: absolute;
+    z-index: 3;
+    top: -14px;
+    font-size: 18px;
+    left: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 67px;
+    border-radius: 3px;
+}
+b{
+    color: #fef200;
+    font-size: 20px;
+}
+u{
+    font-size: 9px;
+    position: absolute;
+    z-index: 4;
+    text-decoration: none;
+    color: white;
+    background-color: #ee2e24;
+    right: 0;
+    top: 8px;
+}
+.ofertas .lista{
+    display: flex;
+    position: absolute;
+    margin-top: 45px;
+    margin-bottom: 0;
+
+}
+
+.descuento{
+    background-color: #fef200;
+    height: 80px;
+    width: 70px;
+    border-radius: 8px 8px 8px 8px;
+    margin-left: 18px;
+    position: relative;
+    top: -15px;
+
+}
+
+.stars{
+    position: absolute;
+    z-index: 2;
+    height: 80px;
+    width:  70px;
+    background-color: #ee2e24;
+    clip-path: polygon(50% 10%, 70% 35%, 100% 40%, 80% 60%, 85% 85%, 50% 75%, 15% 85%, 20% 60%, 0% 40%, 30% 35%);
+
+}
+
+h3{
+    color: white;
+    font-size: 8.5px;
+    letter-spacing: 2px;
+    margin-left: 25px;
+    position: relative;
+    bottom: -105px;
+} 
+.subtitle{
+    position: absolute;
+    z-index: 5;
+    font-size: 8px;
+    bottom: 0;
+    text-align: center;
+    left: 7px;
+    width: 61px;
+    font-weight: bold;
+}
+.subtitle div{
+    font-size: 12px;
+}
+.tipo-descuento{
+    position: absolute;
+    z-index: 6;
+    text-align: center;
+    left: 21px;
+    color: #fef200;
+    font-weight: bolder;
+    bottom: 31px;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tipo-descuento b{
+    font-size: 10px;
+    margin-left: 0;
+    top: 9px;
+    position: absolute;
+    font-weight: 100;
+}
+.tipo-descuento u{
+    font-size: 8px;
+    position: absolute;
+    color: #fef200;
+    margin-top: 15px;
+    background-color: transparent;
+    left: -5px;
+}
+.tipo-descuento div{
+    position: relative;
+    right: 5px;
+    align-items: center;
+}
+.tipo-descuento div u{
+    font-size: 6px;
+}
+.circle{
+    height: 42px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #ee2e24;
+    border: 1px solid white;
+    position: absolute;
+    z-index: 7;
+    top: 19px;
+    left: 10px;
+}
+.circle2{
+    height: 33px;
+    width: 38px;
+    background-color: rgb(0, 195, 255);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 2.5px;
+    border: 1.5px solid white;
+    text-align: center;
+    font-size: 10px;
+
+}
+.circle2 div{
+    margin-top: 5px;
+}
+.circle2 div div{
+    margin-top: 0;
+    color: white;
+    background-color: black;
+    border-radius: 0 0 7px 7px;
+}
+
+.header .yellow{
+    /* border-radius: 24px 0 0 24px / 59px 0 0 59px; */
+    flex-basis: 20%;
+    height: 130px;
+    background:  #fef200;
+    /* position: absolute; z-index: 3; */
+   
+    /* border-left: 7px solid white; */
+    clip-path: ellipse(78% 100%  at 80% 50% );
+
+}
+.yellow img{
+    height: 120px;
+    margin-left: 40px;
+}
+
