@@ -20,35 +20,26 @@ header .red{
     display: flex;
     flex-basis: 80%;
     background-color: #ee2e24;
-    /* position: absolute; z-index: 2; */
     height: 130px;
-    
-    /* &:before {
-        position: absolute;
-            margin: 20px;
-        padding: 20px;
-            border-radius: 50%;
-            box-shadow: 0 0 0 300px rgba(#95a, .75);
-        content: ''
-      } */
-    
 }
 .title{
     background-color: #ee2e24;
     color: white;
     position: absolute;
     z-index: 3;
-    top: -14px;
+    top: -21px;
     font-size: 18px;
     left: 2px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    width: 67px;
+    width: 69px;
     border-radius: 3px;
 }
 b{
     color: #fef200;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: -4px;
 }
 u{
     font-size: 9px;

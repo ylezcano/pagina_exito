@@ -73,24 +73,27 @@ main{
 }
 /*INICIO DE LA SECCIÓN DE MERCADO*/
 
-section{
+.section-baguet{
     position: absolute;
-    left: 50px;
+    z-index: 1;
+    left: 30px;
+ 
 }
-section img{
-    position: absolute; z-index: 1;
+.section-baguet img{
+    position: absolute; z-index: 2;
     height: 290px;
     width: 340px;
     border-radius: 50%;
     border: 3px solid rgb(255, 230, 0);
+    left: 60px;
 }
-.baguettina{
-    position: absolute; z-index: 2;
+ .baguettina{
+    position: absolute; z-index: 3;
     width: 150px;
     height: 50px;
     line-height: 11px;
     text-align: end;
-    left: 180px;
+    left: 240px;
     top: 30px;
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
@@ -100,6 +103,213 @@ section img{
 .precios{
     position: absolute; z-index: 2;
     right: 0;
-    font-weight: bolder;
+    font-weight: 900;
+   
+}
+
+/*Inicio css de la estrella grande*/
+.big-star{
+    position: absolute;
+    top: 77px;
+    left: -10px;
+}
+.front-star{
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    height: 300px;
+    width:  300px;
+    background-color: #da2525;
+    clip-path: polygon(50% 10%, 70% 35%, 100% 40%, 80% 60%, 85% 85%, 50% 75%, 15% 85%, 20% 60%, 0% 40%, 30% 35%);
+    transform: perspective( 500px ) rotateY( 40deg );
+    background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(248,80,50,1) 5%, rgba(241,111,92,1) 27%, rgba(246,41,12,1) 55%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+
+}
+
+.lateral1{
+    position: absolute;
+    z-index: 2;
+    height: 50px;
+    width:  100px;
+    background-color: #9c1a13;
+    top: 151px;
+    left: 56px;
+    border-top: 0.3px solid white;
+    transform: rotateX(129deg) rotateY(119deg) scale(1.1) skew(54deg);
+    background: linear-gradient(to bottom, rgba(173,17,17,1) 0%, rgba(173,17,17,0.97) 0%, rgba(173,17,17,0.97) 42%, rgba(241,111,92,0.97) 100%);
+}
+.lateral2{
+    position: absolute;
+    z-index: 2;
+    height: 19px;
+    width:  105px;
+    background-color: #9c1a13;
+    top: 217px;
+    left: -42px;
+    border-top: 1.5px solid white;
+    border-right: 0.015px solid white;
+    transform: rotate(48deg) scale(0.9) skew(-30deg) translate(33px);
+    background: linear-gradient(to bottom, rgba(241,111,92,1) 0%, rgba(191,36,19,1) 0%, rgba(248,80,50,1) 0%, rgba(191,36,19,1) 0%, rgba(148,23,12,1) 58%, rgba(148,23,12,1) 100%);
+}
+
+.lateral3{
+    position: absolute;
+    z-index: 1;
+    height: 23px;
+    width:  105px;
+    background-color: #9c1a13;
+    top: 282px;
+    left: 8.5px;
+    border-top: 0.5px solid white;
+    transform: rotate(100deg) scale(0.9) skew(4deg) translate(33px);
+}
+.shadow{
+    height: 10px;
+    width:  167px;
+    margin-top: 160px;
+    margin-left: 1px;
+    background-color: #fdfdfd;
+    box-shadow: 5px 190px 15px 5px rgb(73, 45, 45);
+    transform: rotate(-11deg);
+}
+/*Fin css de la estrella grande*/
+.barras{
+    position: absolute;
+    z-index: 4;
+    left:  215px;
+    bottom: 50px;
     
+}
+.barras .container{
+    display: flex;
+    
+}
+.barra-roja{
+    width: 185px;
+    height: 37px;
+    background-color: rgb(233, 41, 41);
+    margin-bottom: 14px;
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    position: relative;
+}
+.tip{
+    position: relative;
+    background-color: rgb(233, 41, 41);
+    width: 37px;
+    height: 37px;
+    clip-path: polygon(100% 0, 51% 50%, 100% 100%);
+}
+.t2{
+    left: -15px;
+    height: 40px;
+}
+.t3{
+    left: -25px;
+    height: 44px;
+}
+.b2{
+    width: 200px;
+    left: -15px;
+    height: 40px;
+    margin-bottom: 17px;
+}
+.b3{
+    width: 210px;
+    left: -25px;
+    height: 44px;
+}
+
+
+.barra-roja div{
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 3px;
+}
+.barra-roja .number{ /*números amarillos de las barras rojas*/
+    font-size: 23px;
+    color: yellow;
+    margin: -3px 0 -5px 0;
+    font-weight: 700;
+    
+}
+.star-yellow{
+    position: relative;
+    top: -25px;
+    height: 50px;
+    width:  45px;
+    background-color:rgb(238, 238, 22);
+    clip-path: polygon(50% 10%, 70% 35%, 100% 40%, 80% 60%, 85% 85%, 50% 75%, 15% 85%, 20% 60%, 0% 40%, 30% 35%);
+    left: 2px;
+    color:rgb(233, 41, 41);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 17px;
+    letter-spacing: -1px;
+    
+}
+.star1{
+    font-size: 18px;
+    
+}
+.star2{
+    font-size: 18px;
+    
+}
+.star-yellow .percent{ /*signo de porcentaje dentro de la estrella amarilla*/
+    position: absolute;
+    color: rgb(218, 42, 42);
+    font-size: 6px;
+    font-weight: 900;
+    right: 5px;
+    top: 10px;
+}
+.star-yellow b{
+    color: rgb(233, 41, 41);
+    font-size: 6px;
+    
+}
+.b2 .star-yellow{
+    left: 17px;
+}
+.b3 .star-yellow{
+    left: 28px;
+}
+.sub-descuento{/*letreros debajo de las estrellas amarillas*/
+    position: relative;
+    font-size: 9px;
+    color: rgb(255, 255, 255);
+    top: -33px;
+    left: 5px;
+    font-weight: 600;
+}
+.sub2{
+    font-size: 7px;
+    line-height: 5px;
+    left: 15px;
+    top: -35px;
+    font-weight: 200;
+}
+.sub3{
+    font-size: 6px;
+    line-height: 5px;
+    left: 15px;
+    top: -32px;
+    font-weight: 100;
+}
+.cost{
+    position: relative;
+    font-size: 19px;
+    left: 10px;
+}
+.commentary{
+    position: absolute;
+    font-size: 7px;
+    font-weight: 900;
+    right: 25px;
+    bottom: 60px;
+    line-height:  5px;
 }
