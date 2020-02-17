@@ -29,11 +29,11 @@ main{
 .mercado{
     position: absolute;
     right: 90px;
-    top: 30px;
+    top: 21px;
 }
 .mercado .grey{
     background-color: rgba(190, 190, 190, 0.897);
-    height: 80px;
+    height: 65px;
     width: 280px;
     border-radius: 25px;
     position: absolute; z-index: 1;
@@ -48,7 +48,7 @@ main{
     height: 0px;
     border-right: 20px solid transparent;
     border-left: 20px solid transparent;
-    border-top: 80px solid rgb(255, 85, 7);
+    border-top: 65px solid rgb(255, 85, 7);
     transform: perspective( 700px ) rotateY( -45deg );
     border-radius: 20px 10px 35px 35px;
 }
@@ -56,9 +56,9 @@ main{
     position: absolute; z-index: 3;
     right: 50px;
     top: 1px;
-    width: 330px;
-    height: 70px;
-    transform: perspective( 400px ) rotateY( -50deg );
+    width: 310px;
+    height: 60px;
+    transform: perspective( 400px ) rotateY( -40deg );
     border-radius: 30px 10px 10px 10px;
     border: 3px solid black;
 }
@@ -72,12 +72,14 @@ main{
     font-weight: lighter;
 }
 /*INICIO DE LA SECCIÓN DE MERCADO*/
-
+section{
+    display: flex;
+    justify-content: space-between;
+    
+}
 .section-baguet{
-    position: absolute;
-    z-index: 1;
-    left: 30px;
- 
+   position: relative;
+   flex-basis: 41%;
 }
 .section-baguet img{
     position: absolute; z-index: 2;
@@ -85,7 +87,7 @@ main{
     width: 340px;
     border-radius: 50%;
     border: 3px solid rgb(255, 230, 0);
-    left: 60px;
+    right:  7px;
 }
  .baguettina{
     position: absolute; z-index: 3;
@@ -100,18 +102,17 @@ main{
     background-color: rgba(255, 255, 255, 0.582);
     background: linear-gradient(to right, rgba(255,255,255,0) 9%, rgba(255,255,255,0.05) 14%, rgb(255, 255, 255) 100%);
 }
-.precios{
+.baguettina .precio{
     position: absolute; z-index: 2;
     right: 0;
     font-weight: 900;
-   
 }
 
 /*Inicio css de la estrella grande*/
 .big-star{
     position: absolute;
     top: 77px;
-    left: -10px;
+    left: 11px;
 }
 .front-star{
     position: absolute;
@@ -123,7 +124,6 @@ main{
     clip-path: polygon(50% 10%, 70% 35%, 100% 40%, 80% 60%, 85% 85%, 50% 75%, 15% 85%, 20% 60%, 0% 40%, 30% 35%);
     transform: perspective( 500px ) rotateY( 40deg );
     background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(248,80,50,1) 5%, rgba(241,111,92,1) 27%, rgba(246,41,12,1) 55%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
-
 }
 
 .lateral1{
@@ -176,13 +176,13 @@ main{
 .barras{
     position: absolute;
     z-index: 4;
-    left:  215px;
-    bottom: 50px;
+    right: 5px;
+    top: 199px;
     
 }
 .barras .container{
     display: flex;
-    
+
 }
 .barra-roja{
     width: 185px;
@@ -194,38 +194,43 @@ main{
     color: white;
     display: flex;
     position: relative;
+    left: 25px;
+    border-left: 2px solid rgb(233, 41, 41);;
+    
 }
 .tip{
     position: relative;
     background-color: rgb(233, 41, 41);
     width: 37px;
     height: 37px;
-    clip-path: polygon(100% 0, 51% 50%, 100% 100%);
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%, 0% 50%);
+    left: 43px;
 }
 .t2{
-    left: -15px;
+    left: 28px;
     height: 40px;
 }
 .t3{
-    left: -25px;
-    height: 44px;
+    left: 15px;
+    height: 42px;
 }
 .b2{
     width: 200px;
-    left: -15px;
     height: 40px;
     margin-bottom: 17px;
+    
+    left: 10px;
 }
 .b3{
     width: 210px;
-    left: -25px;
-    height: 44px;
+    height: 42px;
+    margin-bottom: 4px;
+    left: 0px;
 }
 
 
 .barra-roja div{
     text-align: center;
-    margin-left: 0px;
     margin-top: 3px;
 }
 .barra-roja .number{ /*números amarillos de las barras rojas*/
@@ -233,14 +238,13 @@ main{
     color: yellow;
     margin: -3px 0 -5px 0;
     font-weight: 700;
-    
 }
 .star-yellow{
     position: relative;
     top: -25px;
     height: 50px;
     width:  45px;
-    background-color:rgb(238, 238, 22);
+    background-color:#fef200;
     clip-path: polygon(50% 10%, 70% 35%, 100% 40%, 80% 60%, 85% 85%, 50% 75%, 15% 85%, 20% 60%, 0% 40%, 30% 35%);
     left: 2px;
     color:rgb(233, 41, 41);
@@ -257,7 +261,8 @@ main{
 }
 .star2{
     font-size: 18px;
-    
+    /* position: relative;
+    left: -20px; */
 }
 .star-yellow .percent{ /*signo de porcentaje dentro de la estrella amarilla*/
     position: absolute;
@@ -273,10 +278,11 @@ main{
     
 }
 .b2 .star-yellow{
-    left: 17px;
+    left: 9px;
 }
 .b3 .star-yellow{
-    left: 28px;
+    left: 20px;
+   
 }
 .sub-descuento{/*letreros debajo de las estrellas amarillas*/
     position: relative;
@@ -289,27 +295,96 @@ main{
 .sub2{
     font-size: 7px;
     line-height: 5px;
-    left: 15px;
+    left: 8px;
     top: -35px;
     font-weight: 200;
 }
 .sub3{
     font-size: 6px;
     line-height: 5px;
-    left: 15px;
+    left: 8px;
     top: -32px;
     font-weight: 100;
 }
 .cost{
     position: relative;
+    top: 2px;
     font-size: 19px;
+    left: 15px;
+}
+.cost b{
+    color: white;
+    font-size: 8px;
+    position: absolute;
     left: 10px;
+}
+.c1{
+    line-height: 35px;
 }
 .commentary{
     position: absolute;
     font-size: 7px;
     font-weight: 900;
-    right: 25px;
-    bottom: 60px;
+    right: 0;
+    bottom: 80px;
     line-height:  5px;
+}
+.yellow-bar{
+    position: relative;
+    background-color:#fef200;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10px;
+    font-size: 18px;
+    
+    
+}
+.silver{
+  background-color: #47c6d7;
+  padding-top: 5px;
+  padding-left: 2px;
+  clip-path: polygon(0% 0%, 81% 0, 100% 50%, 81% 100%, 0% 100%);
+  font-size: 19px;
+}
+
+.silver .black{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    margin-left: -2px;
+    width: 76px;
+    font-size: 16px;
+}
+.value{
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+/*Inicio de la sección de productos*/
+.all-products{
+    
+    width: calc(100% - 80px);
+    margin: 15px 40px 0 40px;
+    position: absolute;
+    z-index: 0;
+}
+.product-conteiner{
+    display: flex;
+    
+}
+.product{
+    flex-basis: 100%;
+    height: 288px;
+}
+.product-bottom{
+    height: 201.6px;
+    border-bottom: 2px solid yellow
+}
+.border-right{
+    border-right: 2px solid orange
+}
+.border-bottom{
+    border-bottom: 2px solid orange
 }
