@@ -12,13 +12,13 @@ main{
     text-align: center;
      
 }
-.titulos h1{
+.titulos h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     margin: 0;
     font-weight: bolder;
 }
-.titulos h2{
+.titulos h3{
     margin: 0;
     font-size: 50px;
     font-weight: lighter;
@@ -102,7 +102,7 @@ section{
     background-color: rgba(255, 255, 255, 0.582);
     background: linear-gradient(to right, rgba(255,255,255,0) 9%, rgba(255,255,255,0.05) 14%, rgb(255, 255, 255) 100%);
 }
-.baguettina .precio{
+.precio{
     position: absolute; z-index: 2;
     right: 0;
     font-weight: 900;
@@ -176,7 +176,7 @@ section{
 .barras{
     position: absolute;
     z-index: 4;
-    right: 5px;
+    right: 12px;
     top: 199px;
     
 }
@@ -369,6 +369,7 @@ section{
     margin: 15px 40px 0 40px;
     position: absolute;
     z-index: 0;
+    height: 100px;
 }
 .product-conteiner{
     display: flex;
@@ -379,12 +380,165 @@ section{
     height: 288px;
 }
 .product-bottom{
-    height: 201.6px;
-    border-bottom: 2px solid yellow
+    height: 190px;
+    border-bottom: 3px solid rgb(247, 247, 7)
 }
 .border-right{
-    border-right: 2px solid orange
+    border-right: 2px  solid orange
+    
 }
 .border-bottom{
     border-bottom: 2px solid orange
 }
+.img-product{
+    width: calc(100% - 14px);
+    height:  110px;
+    margin-right: 7px;
+    margin-left: 7px;
+    border-radius: 12px;
+    margin-top: 6px;
+}
+
+/*Inicio de las barras ubicadas en las ofertas*/
+
+.container-text{
+    margin-left: 8px;
+    margin-top: 15px;
+}
+.text-oferts{
+    font-size: 10px;
+    line-height: 9px;
+}
+.price{
+   font-weight: 900;
+   font-size: 11px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.red-yellow-bar{
+    font-size: 11px;
+    display: flex;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: #fef200;
+    width: 140px;
+    
+}
+.arrow-red{
+    background-color: rgb(233, 41, 41);
+    color: white;
+    font-weight: 600;
+    padding-right: 10px;
+    padding-top: 2px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+}
+.yellow-price{
+    background-color: #fef200;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.text-in{
+    font-size: 6px;
+    font-weight: 700;
+}
+
+.yellow-bar-small{
+    line-height: 10px;
+    font-size: 13px;
+    width: 175px;
+    
+}
+.silver-small{
+  padding-top: 3px;
+  padding-left: 1px;
+  font-size: 13px;
+}
+
+.silver .black-small{
+    font-weight: 700;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    width: 50px;
+    font-size: 10px;
+}
+.value-small{
+    line-height: 24px;
+    font-weight: 800;
+    margin-right: 0;
+    font-size: 11px;
+}
+.bottom{
+   margin-top: 145px;
+}
+.central-product{
+    margin: 4px 0 2px 0;
+    border: 3px solid rgb(209, 142, 18);
+    border-radius: 15px;
+    height: 270px;
+    
+    background-color: #fef9cf;
+}
+.central-product .container-text{
+    margin-left: 3px;
+}
+.red-title{
+    text-align: center;
+    background-color: rgb(233, 41, 41);
+    border-radius: 11px 11px 0 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    letter-spacing: 3px;
+}
+.product-subtitle{
+    text-align: center;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 13px;
+    margin-top: 3px;
+    padding-bottom: 20px;
+}
+
+
+.line-right::after {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 272px;
+    background-color: rgb(209, 142, 18);
+    margin-top: 10px;
+}
+.line-right-small::after{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 145px;
+    background-color: rgb(209, 142, 18);
+    margin-top: 135px;
+}
+.line-right-small-bottom::after{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 145px;
+    background-color: rgb(209, 142, 18);
+    margin-top: 38px;
+}
+footer{
+    position: absolute;
+    z-index: 0;
+    top: 1015px;
+    height: 120px;
+    margin-right: 15px;
+    margin-left: 40px;
+    width: 80%;
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
+}   
