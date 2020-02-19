@@ -39,7 +39,7 @@ main{
     top: 56px;
     transform: rotate(23deg);
 }
-.c1{
+.com1{
 
    height: 5px;
    width: 13px;
@@ -48,7 +48,7 @@ main{
    transform: rotate(23deg);
    margin-bottom: 5px;
 }
-.c2{
+.com2{
     height: 5px;
     width: 19px;
     background-color: rgb(255, 85, 7);
@@ -56,7 +56,7 @@ main{
     border-radius: 60px;
     margin-left: -4px;
 }
-.c3{
+.com3{
 
     height: 3px;
     width: 13px;
@@ -65,7 +65,7 @@ main{
     transform: rotate(-23deg);
     margin-bottom: 7px;
  }
- .c4{
+ .com4{
      height: 5px;
      width: 19px;
      background-color: rgb(255, 85, 7);
@@ -73,7 +73,7 @@ main{
      border-radius: 60px;
      margin-left: -4px;
  }
- .c5{
+ .com5{
     height: 5px;
     width: 19px;
     background-color: rgb(255, 85, 7);
