@@ -403,6 +403,7 @@ span p{
   background-color: #47c6d7;
   padding-top: 5px;
   padding-left: 2px;
+  text-align: start;
   clip-path: polygon(0% 0%, 81% 0, 100% 50%, 81% 100%, 0% 100%);
   font-size: 19px;
 }
@@ -413,6 +414,7 @@ span p{
     font-weight: 700;
     padding-top: 3px;
     padding-bottom: 2px;
+    text-align: start;
     margin-left: -2px;
     width: 76px;
     font-size: 16px;
