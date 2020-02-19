@@ -460,6 +460,10 @@ span p{
     border-radius: 12px;
     margin-top: 6px;
 }
+.img-product2{
+    height:  130px; 
+
+}
 .image-second{
     height: 80px;
     width: 180px;
@@ -492,6 +496,13 @@ span p{
     left: 30px;
     top: -25px;
 }
+.img-pesco{
+    height: 30px;
+    width: 70px;
+    position: relative;
+    left: 110px;
+    top: 3px;
+}
 .rotate{
     transform: rotate(15deg);
 }
@@ -502,6 +513,7 @@ span p{
     margin-top: 20px;
     position: absolute;
 }
+
 .margin{
     margin-top: -68px;
 }
@@ -510,6 +522,12 @@ span p{
 }
 .margin3{
     margin-top: -115px;
+}
+.margin4{
+    margin-top: 1px;
+}
+.margin5{
+    margin-top: -30px;
 }
 .text-oferts{
     font-size: 10px;
