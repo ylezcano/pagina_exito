@@ -26,6 +26,62 @@ main{
     letter-spacing: -2px;
     line-height: 20px;
 }
+.comillas-left{
+    position: absolute;
+    z-index: 9;
+    left: -330px;
+    transform: rotate(23deg);
+}
+.comillas-rigth{
+    position: absolute;
+    z-index: 9;
+    right: 19px;
+    top: 56px;
+    transform: rotate(23deg);
+}
+.c1{
+
+   height: 5px;
+   width: 13px;
+   background-color: rgb(255, 85, 7);
+   border-radius: 60px;
+   transform: rotate(23deg);
+   margin-bottom: 5px;
+}
+.c2{
+    height: 5px;
+    width: 19px;
+    background-color: rgb(255, 85, 7);
+    margin-top: 3px;
+    border-radius: 60px;
+    margin-left: -4px;
+}
+.c3{
+
+    height: 3px;
+    width: 13px;
+    background-color: rgb(255, 85, 7);
+    border-radius: 60px;
+    transform: rotate(-23deg);
+    margin-bottom: 7px;
+ }
+ .c4{
+     height: 5px;
+     width: 19px;
+     background-color: rgb(255, 85, 7);
+     margin-top: 3px;
+     border-radius: 60px;
+     margin-left: -4px;
+ }
+ .c5{
+    height: 5px;
+    width: 19px;
+    background-color: rgb(255, 85, 7);
+    margin-top: 7px;
+    border-radius: 60px;
+    margin-left: -4px;
+    transform: rotate(23deg);
+}
 .mercado{
     position: absolute;
     right: 90px;
@@ -336,8 +392,12 @@ section{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 10px;
     font-size: 18px;
+    text-align: center;
     
-    
+}
+span p{
+ margin-top: -16px;
+ height: 1.5px;
 }
 .silver{
   background-color: #47c6d7;
@@ -383,10 +443,7 @@ section{
     height: 190px;
     border-bottom: 3px solid rgb(247, 247, 7)
 }
-.border-right{
-    border-right: 2px  solid orange
-    
-}
+
 .border-bottom{
     border-bottom: 2px solid orange
 }
@@ -398,12 +455,56 @@ section{
     border-radius: 12px;
     margin-top: 6px;
 }
-
+.image-second{
+    height: 80px;
+    width: 180px;
+    position: relative;
+    z-index: 8;
+    left: 40px;
+    top: -30px;
+}
+.img-biger{
+    height: 110px;
+    width: 200px;
+    left: 30px;
+    top: -40px;
+}
+.img-sausage{
+    height: 80px;
+    width: 190px;
+    left: 30px;
+    top: -20px;
+}
+.img-tuna{
+    height: 80px;
+    width: 160px;
+    left: 35px;
+    top: -20px;
+}
+.img-sause{
+    height: 110px;
+    width: 220px;
+    left: 30px;
+    top: -25px;
+}
+.rotate{
+    transform: rotate(15deg);
+}
 /*Inicio de las barras ubicadas en las ofertas*/
 
 .container-text{
     margin-left: 8px;
-    margin-top: 15px;
+    margin-top: 20px;
+    position: absolute;
+}
+.margin{
+    margin-top: -68px;
+}
+.margin2{
+    margin-top: -82px;
+}
+.margin3{
+    margin-top: -115px;
 }
 .text-oferts{
     font-size: 10px;
@@ -423,7 +524,12 @@ section{
     position: relative;
     background-color: #fef200;
     width: 140px;
-    
+}
+.red-yellow-bar-small{
+    width: 120px;
+}
+.red-yellow-bar-medium{
+    width: 130px;
 }
 .arrow-red{
     background-color: rgb(233, 41, 41);
@@ -476,7 +582,7 @@ section{
 }
 .central-product{
     margin: 4px 0 2px 0;
-    border: 3px solid rgb(209, 142, 18);
+    border: 3px solid orange;
     border-radius: 15px;
     height: 270px;
     
@@ -510,7 +616,7 @@ section{
     display: block;
     width: 2px;
     height: 272px;
-    background-color: rgb(209, 142, 18);
+    background-color: orange;
     margin-top: 10px;
 }
 .line-right-small::after{
@@ -518,7 +624,7 @@ section{
     display: block;
     width: 2px;
     height: 145px;
-    background-color: rgb(209, 142, 18);
+    background-color: orange;
     margin-top: 135px;
 }
 .line-right-small-bottom::after{
@@ -526,7 +632,7 @@ section{
     display: block;
     width: 2px;
     height: 145px;
-    background-color: rgb(209, 142, 18);
+    background-color: orange;
     margin-top: 38px;
 }
 footer{
